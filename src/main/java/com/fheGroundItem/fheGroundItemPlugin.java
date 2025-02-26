@@ -62,7 +62,7 @@ public class fheGroundItemPlugin extends Plugin
 		//Brews & restores
 		var notableIds = new Integer[] { 3024, 3026, 3028, 3030, 6685, 6687, 6689, 6691 };
 
-		//Xerics aids, revitalisations, prayer enhances & overloads
+		//Xeri cssaids, revitaliations, prayer enhances & overloads
 		if((item.getId() >= 20949 && item.getId() <= 20996) || (Arrays.stream(notableIds).anyMatch(x -> x == item.getId()))) {
 			if(tile.getWorldLocation().getX() == client.getLocalPlayer().getWorldLocation().getX() &&
 				tile.getWorldLocation().getY() == client.getLocalPlayer().getWorldLocation().getY()) {
